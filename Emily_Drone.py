@@ -852,7 +852,7 @@ if __name__ == "__main__":
 
     print(f"Values added to {'existing' if file_exists else 'new'} CSV file.")
     
-    test_x_x = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/xData.txt")
+    test_x_x = np.loadtxt(f"data/UCI HAR Dataset/trainSim/xData.txt")
     Nloop = test_x_x.shape[1] # convert to 1 if batchsize > 1
     print("Nloop main {}".format(Nloop))
 
