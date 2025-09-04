@@ -301,40 +301,40 @@ class HarData:
         tf.compat.v1.disable_eager_execution()
         tf.disable_v2_behavior()
         print("Parsing for Patient File {}".format(numID))
-        train_x_x = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/xData.txt")
-        train_x_y = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/yData.txt")
-        train_x_z = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/zData.txt")
+        train_x_x = np.loadtxt(f"data/UCI HAR Dataset/trainSim/xData.txt")
+        train_x_y = np.loadtxt(f"data/UCI HAR Dataset/trainSim/yData.txt")
+        train_x_z = np.loadtxt(f"data/UCI HAR Dataset/trainSim/zData.txt")
         
-        train_y_x = (np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/xData.txt")-1)#.astype(np.int32)
-        train_y_y = (np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/yData.txt")-1)#.astype(np.int32)
-        train_y_z = (np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/zData.txt")-1)#.astype(np.int32)
+        train_y_x = (np.loadtxt(f"data/UCI HAR Dataset/trainSim/xData.txt")-1)#.astype(np.int32)
+        train_y_y = (np.loadtxt(f"data/UCI HAR Dataset/trainSim/yData.txt")-1)#.astype(np.int32)
+        train_y_z = (np.loadtxt(f"data/UCI HAR Dataset/trainSim/zData.txt")-1)#.astype(np.int32)
         
-        train_uMotor1 = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/uMotor1.txt")
-        train_uMotor2 = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/uMotor2.txt")
-        train_uMotor3 = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/uMotor3.txt")
-        train_uMotor4 = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/uMotor4.txt")
+        train_uMotor1 = np.loadtxt(f"data/UCI HAR Dataset/trainSim/uMotor1.txt")
+        train_uMotor2 = np.loadtxt(f"data/UCI HAR Dataset/trainSim/uMotor2.txt")
+        train_uMotor3 = np.loadtxt(f"data/UCI HAR Dataset/trainSim/uMotor3.txt")
+        train_uMotor4 = np.loadtxt(f"data/UCI HAR Dataset/trainSim/uMotor4.txt")
         
-        train_maxMotor = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/maxMotor.txt")
-        train_minMotor = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/minMotor.txt")
+        train_maxMotor = np.loadtxt(f"data/UCI HAR Dataset/trainSim/maxMotor.txt")
+        train_minMotor = np.loadtxt(f"data/UCI HAR Dataset/trainSim/minMotor.txt")
                 
         
         
         
-        test_x_x = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/xData.txt")
-        test_x_y = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/yData.txt")
-        test_x_z = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/zData.txt")
+        test_x_x = np.loadtxt(f"data/UCI HAR Dataset/trainSim/xData.txt")
+        test_x_y = np.loadtxt(f"data/UCI HAR Dataset/trainSim/yData.txt")
+        test_x_z = np.loadtxt(f"data/UCI HAR Dataset/trainSim/zData.txt")
         
-        test_y_x = (np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/xData.txt")-1)#.astype(np.int32)
-        test_y_y = (np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/yData.txt")-1)#.astype(np.int32)
-        test_y_z = (np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/zData.txt")-1)#.astype(np.int32)
+        test_y_x = (np.loadtxt(f"data/UCI HAR Dataset/trainSim/xData.txt")-1)#.astype(np.int32)
+        test_y_y = (np.loadtxt(f"data/UCI HAR Dataset/trainSim/yData.txt")-1)#.astype(np.int32)
+        test_y_z = (np.loadtxt(f"data/UCI HAR Dataset/trainSim/zData.txt")-1)#.astype(np.int32)
         
-        test_uMotor1 = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/uMotor1.txt")
-        test_uMotor2 = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/uMotor2.txt")
-        test_uMotor3 = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/uMotor3.txt")
-        test_uMotor4 = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/uMotor4.txt")
+        test_uMotor1 = np.loadtxt(f"data/UCI HAR Dataset/trainSim/uMotor1.txt")
+        test_uMotor2 = np.loadtxt(f"data/UCI HAR Dataset/trainSim/uMotor2.txt")
+        test_uMotor3 = np.loadtxt(f"data/UCI HAR Dataset/trainSim/uMotor3.txt")
+        test_uMotor4 = np.loadtxt(f"data/UCI HAR Dataset/trainSim/uMotor4.txt")
         
-        test_maxMotor = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/maxMotor.txt")
-        test_minMotor = np.loadtxt(f"data/har/UCI HAR Dataset/trainSim/minMotor.txt")
+        test_maxMotor = np.loadtxt(f"data/UCI HAR Dataset/trainSim/maxMotor.txt")
+        test_minMotor = np.loadtxt(f"data/UCI HAR Dataset/trainSim/minMotor.txt")
         
 
         
